@@ -1,0 +1,109 @@
+/* General styling for contest page */
+.contest-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for theme changes */
+}
+
+/* Light Theme */
+.contest-page.light {
+  background-color: #f4f4f4; /* Light theme background */
+  color: #333; /* Light theme text color */
+}
+
+.contests-section.light, 
+.practice-contests.light, 
+.leaderboard.light {
+  background-color: #ffffff; /* Light theme section background */
+  color: #333; /* Light theme text color */
+}
+
+.contests-section.light p, 
+.practice-contests.light p {
+  color: #666; /* Light theme paragraph color */
+}
+
+/* Section headings */
+.contest-page h2.light, 
+.contest-page h3.light {
+  color: #333; /* Light theme heading color */
+  border-bottom: 2px solid #007bff; /* Header underline color */
+  padding-bottom: 10px;
+}
+
+/* Dark Theme */
+.contest-page.dark {
+  background-color: #181818; /* Dark theme background */
+  color: #f0f0f0; /* Dark theme text color */
+}
+
+.contests-section.dark, 
+.practice-contests.dark, 
+.leaderboard.dark {
+  background-color: #242424; /* Dark theme section background */
+  color: #f0f0f0; /* Dark theme text color */
+}
+
+.contests-section.dark p, 
+.practice-contests.dark p {
+  color: #ccc; /* Dark theme paragraph color */
+}
+
+/* Section headings for dark theme */
+.contest-page h2.dark, 
+.contest-page h3.dark {
+  color: #ffffff; /* Bright white for headers in dark mode */
+}
+
+/* Leaderboard table */
+.leaderboard table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.leaderboard table, th, td {
+  border: 1px solid #ddd; /* Light border for light theme */
+}
+
+/* Light theme table headers and rows */
+.leaderboard.th.light {
+  background-color: #007bff; /* Header background color */
+  color: white; /* Header text color */
+}
+
+.leaderboard td.light {
+  color: #333; /* Light theme cell text color */
+}
+
+/* Dark theme table headers and rows */
+.leaderboard th.dark {
+  background-color: #4b8bff; /* Dark theme header background */
+  color: white; /* Header text color */
+}
+
+.leaderboard td.dark {
+  color: #ccc; /* Dark theme cell text color */
+}
+
+/* Zebra striping for leaderboard rows */
+.leaderboard tr:nth-child(even) {
+  background-color: #999999; /* Default light theme alternating row color */
+}
+
+.leaderboard tr:hover {
+  background-color: #797979; /* Default light theme hover color */
+}
+
+.leaderboard tr:hover.dark {
+  background-color: #333; /* Dark theme hover color */
+}
+
+/* General styles for practice and contests section */
+.contests-section, .practice-contests, .leaderboard {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for theme changes */
+}

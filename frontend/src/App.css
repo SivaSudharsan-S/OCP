@@ -1,0 +1,46 @@
+/* Default light theme */
+body.light {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+body.light .sidebar {
+  background-color: #55a7da;
+  color: #333;
+}
+
+body.light .sidebar a {
+  color: #333;
+}
+
+body.light .sidebar a:hover {
+  background-color: #ddd;
+}
+
+/* Dark theme */
+body.dark {
+  background-color: #181818;
+  color: #fff;
+}
+
+body.dark .sidebar {
+  background-color: #242424;
+  color: #fff;
+}
+
+body.dark .sidebar a {
+  color: #fff;
+}
+
+body.dark .sidebar a:hover {
+  background-color: #555;
+}
+
+/* Global styles */
+.theme-toggle .slider {
+  background-color: #f1c40f; /* Light mode color */
+}
+
+body.dark .theme-toggle .slider {
+  background-color: #333; /* Dark mode color */
+}

@@ -1,0 +1,42 @@
+/*layout.css*/
+.layout {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #74a1eb;
+  padding: 20px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  box-shadow: 2px 0 5px rgba(251, 251, 251, 0.1);
+}
+
+.content {
+  margin-left: 250px; /* Same width as the sidebar */
+  padding: 20px;
+  width: calc(100% - 250px);
+}
+
+.sidebar.light {
+  background-color: #74a1eb;
+  color: #000;
+}
+
+.sidebar.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.content.light {
+  background-color: #fff;
+  color: #000;
+}
+
+.content.dark {
+  background-color: #1e1e1e;
+  color: #fff;
+}

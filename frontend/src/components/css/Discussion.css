@@ -1,0 +1,219 @@
+/* Discussions page */
+.discussion-page {
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Base Backgrounds */
+.discussion-page.light {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.discussion-page.dark {
+  background-color: #1e1e1e;
+  color: #ccc;
+}
+
+/* Heading Styles */
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h2.light {
+  color: #333;
+}
+
+h2.dark {
+  color: #ccc;
+}
+
+/* Input Section Styles */
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 12px;
+  width: 96%;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"].light {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  color: #333;
+}
+
+input[type="text"].dark {
+  background-color: #333;
+  border: 1px solid #555;
+  color: #fff;
+}
+
+input[type="text"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Button Styles */
+.post-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  font-weight: bold;
+}
+
+.post-button.light {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.post-button.dark {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+.post-button:hover {
+  transform: scale(1.05);
+}
+
+/* Category Button Styles */
+.category-section {
+  display: flex;
+  gap: 10px;
+}
+
+.category-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.category-button.light {
+  background-color: #737577;
+  color: #fff;
+}
+
+.category-button.dark {
+  background-color: #5a6268;
+  color: #fff;
+}
+
+.category-button:hover {
+  transform: scale(1.05);
+}
+
+/* Discussion List Styles */
+.discussion-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.discussion-item {
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  transition: box-shadow 0.3s;
+}
+
+.discussion-item.light {
+  background-color: #fff;
+  color: #333;
+}
+
+.discussion-item.dark {
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+}
+
+.discussion-item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Private Tag Styles */
+.private-tag {
+  padding: 2px 5px;
+  margin-left: 10px;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.private-tag.light {
+  background-color: #ffcccc;
+  color: red;
+}
+
+.private-tag.dark {
+  background-color: #d46a6a;
+  color: #ffb3b3;
+}
+
+/* Related Discussions Styles */
+.related-discussions {
+  margin-top: 40px;
+  border-top: 2px solid #e9ecef;
+  padding-top: 20px;
+}
+
+.related-discussions h3 {
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.related-discussions h3.light {
+  color: #333;
+}
+
+.related-discussions h3.dark {
+  color: #ccc;
+}
+
+.related-discussions ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.related-discussions ul li {
+  margin-bottom: 10px;
+  transition: color 0.3s;
+}
+
+.related-discussions ul li.light {
+  color: #007bff;
+}
+
+.related-discussions ul li.dark {
+  color: #007bff;
+}
+
+.related-discussions ul li:hover {
+  text-decoration: underline;
+}
+
+.related-discussions ul li.light:hover {
+  color: #0056b3;
+}
+
+.related-discussions ul li.dark:hover {
+  color: #a1c4ff;
+}

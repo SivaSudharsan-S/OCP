@@ -1,0 +1,115 @@
+/* General styling for profile page */
+.profile-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Light theme background */
+}
+
+/* Light Theme */
+.profile-page.light {
+  background-color: #ffffff; /* White background for light theme */
+  color: #333; /* Dark text color */
+}
+
+.basic-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+h2 {
+  color: #333; /* Dark text for headings */
+}
+
+p {
+  color: #666; /* Medium gray for paragraph text */
+  font-size: 16px;
+}
+
+/* Statistics and Recent Activity Sections */
+.stats-section,
+.recent-activity {
+  background-color: #ffffff; /* White background for sections */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+h3 {
+  border-bottom: 2px solid #007bff; /* Blue bottom border */
+  padding-bottom: 10px;
+  color: #007bff; /* Blue color for headings */
+}
+
+/* List styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd; /* Light border for list items */
+}
+
+ul li:last-child {
+  border-bottom: none;
+}
+
+ul li span {
+  font-weight: bold; /* Emphasize spans in the list */
+}
+
+/* Recent Activity Item Styles */
+.recent-activity ul li {
+  padding: 8px 0;
+}
+
+.recent-activity ul li span {
+  color: #007bff; /* Blue color for recent activity links */
+}
+
+/* Dark Theme */
+.profile-page.dark {
+  background-color: #181818; /* Dark background for dark theme */
+  color: #f0f0f0; /* Light text color for dark theme */
+}
+
+.basic-info.dark {
+  color: #f0f0f0; /* Light text color in dark theme */
+}
+
+h2.dark {
+  color: #f0f0f0; /* Light text color for headings in dark theme */
+}
+
+p.dark {
+  color: #ccc; /* Lighter gray for paragraph text in dark theme */
+}
+
+.stats-section.dark,
+.recent-activity.dark {
+  background-color: #242424; /* Dark background for sections */
+  color: #f0f0f0; /* Light text color in dark sections */
+}
+
+h3.dark {
+  border-bottom: 2px solid #4b8bff; /* Lighter shade for dark theme headings */
+  color: #4b8bff; /* Highlighted color for headings in dark mode */
+}
+
+ul li.dark {
+  color: #f0f0f0; /* Light text for list items in dark theme */
+  border-bottom: 1px solid #444; /* Darker border for list items */
+}
+
+/* Recent Activity Item Styles in Dark Theme */
+.recent-activity.dark ul li span {
+  color: #4b8bff; /* Lighter color for recent activity links in dark theme */
+}
